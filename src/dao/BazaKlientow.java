@@ -4,7 +4,7 @@ import model.Klient;
 
 public class BazaKlientow {
 
-    Klient[] tablicaKlientow = new Klient[10];
+    Klient[] tablicaKlientow = new Klient[12];
 
     public BazaKlientow(Klient[] tablicaKlientow) {
         this.tablicaKlientow = tablicaKlientow;
@@ -21,6 +21,8 @@ public class BazaKlientow {
         Klient klient8 = new Klient();
         Klient klient9 = new Klient();
         Klient klient0 = new Klient();
+        Klient klient10 = new Klient();
+        Klient klient11 = new Klient();
         tablicaKlientow[0] = klient0;
         tablicaKlientow[1] = klient1;
         tablicaKlientow[2] = klient2;
@@ -31,6 +33,8 @@ public class BazaKlientow {
         tablicaKlientow[7] = klient7;
         tablicaKlientow[8] = klient8;
         tablicaKlientow[9] = klient9;
+        tablicaKlientow[10] = klient10;
+        tablicaKlientow[11] = klient11;
     }
 
 
